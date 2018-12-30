@@ -2,8 +2,9 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [W3C](README.md)
 
 ## Methods
 
 * [Defining Methods](methods.md)
+
