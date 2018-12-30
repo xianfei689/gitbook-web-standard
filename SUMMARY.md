@@ -6,5 +6,5 @@
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [w3c主要规范](methods.md)
 
