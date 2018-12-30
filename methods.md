@@ -10,40 +10,48 @@
 
 * DOM：DOM为HTML、XML等数据载体和信息载体在内存中的处理提供了一种基本的对象模型，可提供连接到文件的结构、格式、事件等。由于不依赖于任何程序设计语言和网页描述语言，它为有效处理HTML和XML数据提供了一种标准的、独立的接口。DOM先后经历了3个版本，分别是1998年10月发布的DOM Level 1、2000年11月发布的DOM Level 2和2003年发布的DOM Level 3
 
+## **W3C标准使用实例**
 
+```
+  当顶部为：  
+```
 
-**W3C标准使用实例**
-
-      当顶部为：  
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;  
-      需注意以下情况，所用前提都是在顶部为是一句基础上而言！
+      需注意以下情况，所用前提都是在顶部为是一句基础上而言！
 
-      1、所有标签用小写。  
-      建议养成好习惯把ul span li div 都用小写，当然当顶部申明为上面所示，则不严格区分大小写的。
+```
+  1、所有标签用小写。  
+  建议养成好习惯把ul span li div 都用小写，当然当顶部申明为上面所示，则不严格区分大小写的。
 
-      2、头文件meta、link标签。  
-      错误：&lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312" /&gt;  
-      正确：&lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312"&gt;  
-      错误：&lt;link href="/wl\_pic/CSS.css" type="text/css" rel="stylesheet" /&gt;  
-      正确：&lt;link href="/wl\_pic/CSS.css" type="text/css" rel="stylesheet"&gt;  
-      正确：&lt;meta http-equiv="Content-Language" content="zh-CN" &gt;
+  2、头文件meta、link标签。  
+  错误：&lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312" /&gt;  
+  正确：&lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312"&gt;  
+  错误：&lt;link href="/wl\_pic/CSS.css" type="text/css" rel="stylesheet" /&gt;  
+  正确：&lt;link href="/wl\_pic/CSS.css" type="text/css" rel="stylesheet"&gt;  
+  正确：&lt;meta http-equiv="Content-Language" content="zh-CN" &gt;
 
-      3、JS调用。  
-      错误：&lt;script src="/wl\_inc/main.js" &gt;&lt;/script&gt;  
-      错误：&lt;script src="/wl\_inc/main.js" language="javascript"&gt;&lt;/script&gt;  
-      正确：&lt;script src="/wl\_inc/main.js" type="text/javascript"&gt;&lt;/script&gt;  
-      正确：&lt;script src="/wl\_inc/main.js" type="text/javascript" &gt;&lt;/script&gt;
+  3、JS调用。  
+  错误：&lt;script src="/wl\_inc/main.js" &gt;&lt;/script&gt;  
+  错误：&lt;script src="/wl\_inc/main.js" language="javascript"&gt;&lt;/script&gt;  
+  正确：&lt;script src="/wl\_inc/main.js" type="text/javascript"&gt;&lt;/script&gt;  
+  正确：&lt;script src="/wl\_inc/main.js" type="text/javascript" &gt;&lt;/script&gt;
 
-      4、表格&lt;table&gt;高度  
-      不要使用如height="101"  
-      正确：&lt;table width="970" style="height:101px;" border="0" align="center" cellpadding="0" cellspacing="0"&gt;
+  4、表格&lt;table&gt;高度  
+  不要使用如height="101"  
+  正确：&lt;table width="970" style="height:101px;" border="0" align="center" cellpadding="0" cellspacing="0"&gt;
 
-      5、正确使用alt、title  
+  5、正确使用alt、title  
+```
+
 &lt;a href="/"&gt;&lt;img src="/wl\_pic/logo.gif" border="0" alt="南宁大家教" &gt;&lt;/a&gt;  
 &lt;a href="/NoticeHTML/?2.htm" class="bt" title="南宁大家教"&gt;南宁大家教&lt;/a&gt;  
-      凡是没有带加链接的图片必须加上alt=""如：  
+      凡是没有带加链接的图片必须加上alt=""如：  
 &lt;img height="11" src="/wl\_pic/tu.gif" width="11" alt=""&gt;
 
-      6、在声明文件为前面说的情况下，可省略双引号或单引号。  
-      如：&lt;div id=navpart&gt; 或者 &lt;div id="navpart"&gt; 都通过w3c标准的。
+```
+  6、在声明文件为前面说的情况下，可省略双引号或单引号。  
+  如：&lt;div id=navpart&gt; 或者 &lt;div id="navpart"&gt; 都通过w3c标准的。
+```
+
+
 
