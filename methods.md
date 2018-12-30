@@ -12,14 +12,14 @@
 
 ## **W3C标准使用实例**
 
-```
+
   当顶部为：  
-```
+
 
 &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;  
       需注意以下情况，所用前提都是在顶部为是一句基础上而言！
 
-```
+
   1、所有标签用小写。  
   建议养成好习惯把ul span li div 都用小写，当然当顶部申明为上面所示，则不严格区分大小写的。
 
@@ -41,17 +41,17 @@
   正确：&lt;table width="970" style="height:101px;" border="0" align="center" cellpadding="0" cellspacing="0"&gt;
 
   5、正确使用alt、title  
-```
+
 
 &lt;a href="/"&gt;&lt;img src="/wl\_pic/logo.gif" border="0" alt="南宁大家教" &gt;&lt;/a&gt;  
 &lt;a href="/NoticeHTML/?2.htm" class="bt" title="南宁大家教"&gt;南宁大家教&lt;/a&gt;  
       凡是没有带加链接的图片必须加上alt=""如：  
 &lt;img height="11" src="/wl\_pic/tu.gif" width="11" alt=""&gt;
 
-```
+
   6、在声明文件为前面说的情况下，可省略双引号或单引号。  
   如：&lt;div id=navpart&gt; 或者 &lt;div id="navpart"&gt; 都通过w3c标准的。
-```
+
 
 
 
