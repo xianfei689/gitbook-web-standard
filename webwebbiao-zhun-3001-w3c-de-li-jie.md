@@ -16,7 +16,7 @@ Web标准不是某一个标准，而是一系列标准的集合。
 
 
 这些标准大部分由万维网联盟（外语缩写：W3C）起草和发布，也有一些是其他标准组织制订的标准，比如ECMA（European Computer
-```
+
 
 Manufacturers Association）的ECMAScript标准。
 
