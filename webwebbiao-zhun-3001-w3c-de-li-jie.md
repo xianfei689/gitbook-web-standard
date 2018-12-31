@@ -82,13 +82,4 @@ HTML、CSS、JavaScript技术，将美工提供的psd文件转化为html页面�
 
                         3）不需要变动页面内容，就可以操作页面样式和数据，提高网站的易用性。
 
---------------------- 
-
-作者：summer\_zmc 
-
-来源：CSDN 
-
-原文：https://blog.csdn.net/summer\_zmc/article/details/53770691 
-
-版权声明：本文为博主原创文章，转载请附上博文链接！
 
