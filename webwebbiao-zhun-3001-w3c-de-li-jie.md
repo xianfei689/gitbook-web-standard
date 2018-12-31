@@ -4,14 +4,7 @@ Web标准不是某一个标准，而是一系列标准的集合。
 
 网页主要由三部分组成：结构（Structure）、表现（Presentation）和行为（Behavior）。
 
-对应的标准也分三方面：结构化标准语言主要包括HTML, XHTML和XML，
-
-
-                                     表现标准语言主要包括CSS，
-
-
-
-                                     行为标准主要包括对象模型（如W3C DOM）、ECMAScript等。\[例如：js交互操作\]
+对应的标准也分三方面：结构化标准语言主要包括HTML, XHTML和XML，表现标准语言主要包括CSS， 行为标准主要包括对象模型（如W3C DOM）、ECMAScript等。\[例如：js交互操作\]
 
 
 
