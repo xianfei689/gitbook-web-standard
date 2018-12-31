@@ -6,7 +6,7 @@ Web标准不是某一个标准，而是一系列标准的集合。
 
 对应的标准也分三方面：结构化标准语言主要包括HTML, XHTML和XML，表现标准语言主要包括CSS， 行为标准主要包括对象模型（如W3C DOM）、ECMAScript等。\[例如：js交互操作\]
 
-    这些标准大部分由万维网联盟（外语缩写：W3C）起草和发布，也有一些是其他标准组织制订的标准，比如ECMA（European ComputerManufacturers Association）的ECMAScript标准。
+这些标准大部分由万维网联盟（外语缩写：W3C）起草和发布，也有一些是其他标准组织制订的标准，比如ECMA（European ComputerManufacturers Association）的ECMAScript标准。
 
 W3C对于WEB标准提出了规范化的要求，也就是实际编程中的一些代码规范：整理出以下几点
 
